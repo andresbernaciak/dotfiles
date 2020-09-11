@@ -1,0 +1,10 @@
+
+#!/bin/bash
+
+url='https://duckduckgo.com/?q='
+
+query=$(echo '' | dmenu -p 'Search: ' -nb '#31312c' -nf '#f5f5dc' -sb '#f5f5dc' -sf '#31312c' -fn 'DejaVuSansMono')
+
+if [ -n "$query" ]; then
+    surf "$url""$query"
+fi

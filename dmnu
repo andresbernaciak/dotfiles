@@ -1,0 +1,3 @@
+#!/bin/bash
+
+i3-dmenu-desktop --dmenu='dmenu -i -p run: -nb #31312c -nf #f5f5dc -sb #f5f5dc -sf #31312c -i -fn 'DejaVuSansMono 8'' 
